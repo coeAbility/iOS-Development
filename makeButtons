@@ -1,0 +1,16 @@
+The following code makes a UI button round 
+==============================================
+
+    @IBOutlet weak var button: UIButton!
+
+    
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        //make Button round
+        button.layer.cornerRadius = 10.0
+        button.layer.masksToBounds = true
+        
+        
+        }
