@@ -1,0 +1,12 @@
+Add the following to the Info.plist file 
+==========================================
+
+<key>NSAppTransportSecurity</key>
+<dict>
+    <key>NSAllowsArbitraryLoads</key>
+    <true/>
+</dict>
+
+
+
+
