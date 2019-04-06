@@ -1,0 +1,7 @@
+
+//This code lets you create a new segue
+
+           
+let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+let newViewController = storyBoard.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
+self.navigationController?.pushViewController(newViewController, animated: true)
