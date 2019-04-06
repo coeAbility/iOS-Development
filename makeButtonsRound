@@ -1,9 +1,7 @@
 The following code makes a UI button round 
 ==============================================
 
-    @IBOutlet weak var button: UIButton!
-
-    
+    @IBOutlet weak var button: UIButton
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -14,3 +12,6 @@ The following code makes a UI button round
         
         
         }
+        
+        
+        
