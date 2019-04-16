@@ -1,0 +1,3 @@
+To Debug, when an app breaks, hit cmmd + F so you can search inside console and search for 
+"Terminating app due to uncaught exception", exactly 1 line after 
+you will see a detail message stating why the app crashed. 
