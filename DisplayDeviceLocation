@@ -1,0 +1,4 @@
+Add the following to the info.plist file 
+
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>To show your location on the map</string>
