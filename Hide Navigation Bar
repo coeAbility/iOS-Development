@@ -1,0 +1,2 @@
+        //show navigation tool bar before displaying SportsViewController
+        self.navigationController?.setNavigationBarHidden(false, animated: false)
